@@ -23,6 +23,9 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+# User authentication
+gem 'devise'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -35,6 +38,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Database account and secret key configuration file with application.yml.
 # URL: https://github.com/laserlemon/figaro
 gem "figaro"
+
+gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass'
+gem 'font-awesome-sass', '~> 4.4.0'
+
+gem "paperclip", "~> 4.3"
+
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
